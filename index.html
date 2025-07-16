@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millatni Aniqlash</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Ism Bo'yicha Millatni Aniqlash</h1>
+    <div>
+        <input type="text" id="nameInput" placeholder="Ism kiriting" value="farrux">
+        <button onclick="fetchNationality()">Qidirish</button>
+    </div>
+    
+    <div class="container" id="resultContainer" style="display: none;">
+        <h2>Natijalar:</h2>
+        <p>Ism: <span id="nameResult"></span></p>
+        <div id="countriesList"></div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
